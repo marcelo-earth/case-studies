@@ -1,4 +1,4 @@
-var sass = require("node-sass");
+var sass = require("sass");
 var path = require("path");
 var CleanCSS = require("clean-css");
 require("css.escape");
@@ -38,9 +38,7 @@ body::after {
 const compileScss = (scss) => {
   let result;
   try {
-    result = sass.renderSync({
-      file: path.join(__dirname, "../../", scss),
-    });
+    result = sass.compile(path.join(__dirname, "../../", scss));
   } catch (error) {
     result = error;
   }
@@ -51,7 +49,7 @@ const compileScss = (scss) => {
     return CSSError(result.message || "Error compiling stylesheet");
   }
 
-  const minifiedCSS = new CleanCSS().minify(result.css.toString());
+  const minifiedCSS = new CleanCSS().minify(result.css);
 
   if (!minifiedCSS.styles) {
     console.error("Error compiling stylesheet");
