@@ -11,5 +11,5 @@ socialImage: ""
 </p>
 
 <p class="l-second">
-  Design, Development, and Deployment stories
+  Made by Marcelo on Earth
 </p>
