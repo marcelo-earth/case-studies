@@ -7,9 +7,9 @@ socialImage: ""
 ---
 
 <p class="l-first">
-  Case Studies of my Products & Projects
+  Case Studies of Products & Projects
 </p>
 
 <p class="l-second">
-  «How this was designed, developed, and deployed»
+  Design, Development, and Deployment stories
 </p>
