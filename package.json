@@ -7,9 +7,9 @@
     "node": ">=11.0.0"
   },
   "scripts": {
-    "start": "cross-env ELEVENTY_ENV=development npx eleventy clean && eleventy --serve",
-    "dev": "cross-env ELEVENTY_ENV=development npx eleventy clean && eleventy --serve",
-    "build": "npx eleventy"
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider ELEVENTY_ENV=development npx eleventy clean && eleventy --serve",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider ELEVENTY_ENV=development npx eleventy clean && eleventy --serve",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider npx eleventy"
   },
   "keywords": [],
   "author": "",
