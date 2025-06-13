@@ -100,7 +100,7 @@ The entire app is optimized for speed, minimalism, and black-and-white accessibi
 - **Mobile App**: SwiftUI (iOS & watchOS)
 - **Model**: OpenAI `gpt-4o` and Gemini `gemini-2.5-pro`
 - **Industry**: AI, Productivity, Personal Tools
-- **Work Duration**: ≈2 months
+- **Work Duration**: ≈3 weeks
 - **Accessibility WCAG**: AA (2.1)
 - **Version**: 1.0-preview
 
