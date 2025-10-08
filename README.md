@@ -1,10 +1,12 @@
 <p align="center">
-  <h1 align="center">Marcelo's Case Studies</h1>
+  <h1 align="center">Made by Marcelo on Earth</h1>
 </p>
 
 <p align="center">
-  Portfolio of articles and case studies about my experiences as a developer.
+  Case studies about my experiences as a software creator.
 </p>
+
+![Preview](./.github/preview.png)
 
 
 ## 🛠 Core Development
