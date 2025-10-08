@@ -2,7 +2,7 @@ module.exports = {
   name: "Marcelo's Case Studies",
   shortDesc:
     "Every product has a process with challenges. Here I share the stories behind each one.",
-  url: "https://articles.marceloarias.com",
+  url: "https://made.marcelo.earth/",
   authorEmail: "hello@marceloarias.com",
   authorHandle: "@360macky",
   authorName: "Marcelo Arias",
