@@ -1,7 +1,7 @@
 ---
 layout: "layouts/home.njk"
 title: "Made on Earth"
-postsHeading: Latest case studies
+postsHeading: Latest creations
 allPostsText: See all articles
 socialImage: ""
 ---
