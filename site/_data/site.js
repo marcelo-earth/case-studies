@@ -1,5 +1,5 @@
 module.exports = {
-  name: "Marcelo's Case Studies",
+  name: "Made on Earth",
   shortDesc:
     "Every product has a process with challenges. Here Marcelo Arias shares the stories behind each one.",
   url: "https://made.marcelo.earth/",

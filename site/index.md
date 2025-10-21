@@ -1,6 +1,6 @@
 ---
 layout: "layouts/home.njk"
-title: "Marcelo's Case Studies"
+title: "Made on Earth"
 postsHeading: Latest case studies
 allPostsText: See all articles
 socialImage: ""
@@ -11,5 +11,5 @@ socialImage: ""
 </p>
 
 <p class="l-second">
-  Made by Marcelo on Earth
+  Written by Marcelo
 </p>
