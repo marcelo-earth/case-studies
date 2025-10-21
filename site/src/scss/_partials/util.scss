@@ -46,12 +46,6 @@
 .hero {
 }
 
-@media (prefers-color-scheme: dark) {
-  .hero {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .hero {
     animation-name: move-background;
