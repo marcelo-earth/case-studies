@@ -47,6 +47,39 @@ module.exports = function (config) {
       .slice(0, site.postsPerPage);
   });
 
+  config.addCollection("sitemap", (collection) => {
+    return collection.getAll().filter((item) => {
+      const url = item.url;
+      const data = item.data || {};
+
+      if (!url) {
+        return false;
+      }
+
+      if (data.eleventyExcludeFromCollections || data.sitemap === false) {
+        return false;
+      }
+
+      if (data.draft) {
+        return false;
+      }
+
+      const urlLower = url.toLowerCase();
+      const hasExtension = urlLower.includes(".");
+      const urlExtension = hasExtension ? urlLower.split(".").pop() : "";
+
+      if (!urlLower.endsWith("/") && hasExtension && urlExtension !== "html") {
+        return false;
+      }
+
+      if (urlLower.includes("404")) {
+        return false;
+      }
+
+      return true;
+    });
+  });
+
   // Passthrough
   config.addPassthroughCopy({ "site/static": "/" });
 
