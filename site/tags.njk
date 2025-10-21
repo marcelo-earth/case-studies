@@ -18,10 +18,10 @@ permalink: /tags/{{ tag }}/
 {% extends 'layouts/base.njk' %}
 
 {# Intro content #}
-{% set introHeading %}Articles{% endset %}
+{% set introHeading %}Products{% endset %}
 
 {# Post list content #}
-{% set postListHeading %}Articles tagged: “{{ tag }}”{% endset %}
+{% set postListHeading %}Products tagged: "{{ tag }}"{% endset %}
 {% set postListItems = collections[tag] %}
 
 {% block content %}
