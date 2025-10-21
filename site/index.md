@@ -7,7 +7,7 @@ socialImage: ""
 ---
 
 <p class="l-first">
-  Case Studies of Products & Projects
+  Case Studies of Products
 </p>
 
 <p class="l-second">
