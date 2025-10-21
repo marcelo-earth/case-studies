@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
 }
 
 .l-site-name > * {
@@ -11,7 +12,6 @@
 .site-logo {
   width: 32px;
   height: 32px;
-  margin-right: 1rem;
   object-fit: contain;
 }
 
