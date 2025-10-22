@@ -1,5 +1,5 @@
 ---
-title: Animo
+title: Generative Manim
 date: "2024-05-31"
 description: "Creating a web editor to make animations just from text"
 tags:
@@ -9,7 +9,7 @@ tags:
   - server
 ---
 
-<img src="/animo__cover.webp" alt="Landing page of Animo" />
+<img src="/generativemanim__cover.webp" alt="Landing page of Animo" />
 
 ## Introduction
 
